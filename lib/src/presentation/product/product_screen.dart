@@ -78,8 +78,10 @@ class ProductsList extends StatelessWidget {
                   style: titleItemCardOfCardStyle,
                 ),
                 Expanded(
-                  child: Image.network(
-                    itemProduct.image!,
+                  child: Center(
+                    child: Image.network(
+                      itemProduct.image!,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 10),
